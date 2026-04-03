@@ -99,7 +99,7 @@ banner() {
   echo "  ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝"
   echo -e "${NC}"
   echo -e "  ${DIM}Full Automated Reconnaissance Framework v1.0${NC}"
-  echo -e "  ${LRED}⚠  USE APENAS EM SISTEMAS COM AUTORIZAÇÃO EXPLÍCITA ⚠${NC}"
+  echo -e "  ${LRED}⚠  SEJA FELIZ !!! ⚠${NC}"
   echo -e "  ${DIM}─────────────────────────────────────────────${NC}"
   echo
 }
@@ -175,7 +175,7 @@ WAF_DETECTED=false
 # PARSE DE ARGUMENTOS
 # ============================================================
 parse_args() {
-  # Modo instalação: ./recon.sh --install (sem domínio)
+  # Modo instalação: use algum dos arquivos .sh seja apt, dnf ou pacman (sem domínio)
   if [[ "${1:-}" == "--install" ]]; then
     install_mode=true
     return
@@ -755,7 +755,7 @@ auto_install() {
   # ── Resumo ────────────────────────────────────────────────────
   echo
   echo -e "${BOLD}${LCYAN}══════════════════════════════════════════════════════${NC}"
-  echo -e "${BOLD}${LCYAN}  INSTALAÇÃO CONCLUÍDA — RESUMO DE FERRAMENTAS${NC}"
+  echo -e "${BOLD}${LCYAN}  INSTALAÇÃO CONCLUÍDA — SE TIVER ALGUM ERRO RODE O .SH${NC}"
   echo -e "${BOLD}${LCYAN}══════════════════════════════════════════════════════${NC}"
   echo
   local _all=(subfinder httpx waybackurls gau katana gf qsreplace dalfox nuclei interactsh-client gowitness naabu subzy ffuf assetfinder sqlmap uro arjun wafw00f ghauri trufflehog)
