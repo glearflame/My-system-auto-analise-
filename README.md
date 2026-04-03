@@ -103,6 +103,7 @@ git clone https://github.com/vichxvid/recon-homosapiens
 cd recon.sh
 chmod +x recon.sh
 ./recon.sh --install
+OU RODE install_recon_tools_(DNF,APT OU PACMAN).SH
 ```
 
 O `--install` instala automaticamente **todas** as dependências:
